@@ -9,8 +9,6 @@ do
   sleep 5
 done
 
-# Carga el Shapefile usando el nuevo script
 /usr/local/bin/load_shapefile.sh
 
-# Mantén el contenedor en ejecución
 tail -f /dev/null
