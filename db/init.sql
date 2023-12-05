@@ -19,7 +19,6 @@ BEGIN
   END IF;
 END $$;
 
--- Cargar datos desde el Shapefile
--- Ajusta la ruta al Shapefile según tu estructura de archivos
-\! shp2pgsql -I -s 4326 -W "latin1" /path/to/data/fibra_optica_detectada.shp shap | psql -U postgres -d dbname
+
+--\! shp2pgsql -I -s 4326 -W "latin1" /path/to/data/fibra_optica_detectada.shp shap | psql -U postgres -d dbname
 
